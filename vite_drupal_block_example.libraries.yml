@@ -1,0 +1,9 @@
+vite-test-base:
+   vite: true
+   js:
+      src/main.js: {}
+   css:
+      theme:
+         src/main.css: {}
+   dependencies:
+     - core/drupalSettings

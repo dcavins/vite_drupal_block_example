@@ -1,0 +1,26 @@
+{
+  "src/assets/vite.svg": {
+    "file": "assets/vite-4a748afd.svg",
+    "src": "src/assets/vite.svg"
+  },
+  "src/assets/vue.svg": {
+    "file": "assets/vue-5532db34.svg",
+    "src": "src/assets/vue.svg"
+  },
+  "src/main.css": {
+    "file": "assets/main-aa11e1f3.css",
+    "src": "src/main.css"
+  },
+  "src/main.js": {
+    "assets": [
+      "assets/vite-4a748afd.svg",
+      "assets/vue-5532db34.svg"
+    ],
+    "css": [
+      "assets/main-aa11e1f3.css"
+    ],
+    "file": "assets/main-5dcd8e19.js",
+    "isEntry": true,
+    "src": "src/main.js"
+  }
+}

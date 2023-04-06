@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function vite_drupal_block_example_theme($existing, $type, $theme, $path) {
+  $variables = [
+    'vite_drupal_block_example_base_url' => '',
+  ];
+  return [
+    'vite_test_template' => [
+      'variables' => $variables,
+      'template'  => 'vite_test_template',
+    ],
+  ];
+}

@@ -1,0 +1,15 @@
+name: Vite Drupal Block Example
+description: Test Vite Output in a Drupal Block
+package: Custom
+
+type: module
+core_version_requirement: ^9.4 || ^10
+
+dependencies:
+  - drupal:link
+  - drupal:views
+
+php: 8.0
+
+hidden: false
+required: false
